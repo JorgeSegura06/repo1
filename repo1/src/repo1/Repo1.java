@@ -5,6 +5,8 @@
  */
 package repo1;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author Usuario
@@ -16,6 +18,7 @@ public class Repo1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        JOptionPane.showConfirmDialog(null, "Hola gitjob");
     }
     
 }
